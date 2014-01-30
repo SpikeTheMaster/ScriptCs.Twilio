@@ -11,8 +11,7 @@ namespace ScriptCs.Twilio
 
         void IScriptPack.Initialize(IScriptPackSession session)
         {
-            session.ImportNamespace("Twilio.TwilioRestClient");
-
+            session.ImportNamespace("Twilio");
         }
 
         void IScriptPack.Terminate() { }
